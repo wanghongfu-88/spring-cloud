@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="helloSpringBoot" />
+        <module name="spring-cloud-zuul" />
+        <module name="spring-eureka-customer" />
+        <module name="spring-eureka-customer-feign" />
+        <module name="spring-eureka-customer-ribbon" />
+        <module name="spring-eureka-discovery" />
+        <module name="spring-eureka-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-config-server" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="helloSpringBoot" target="1.8" />
+      <module name="spring-cloud" target="1.8" />
+      <module name="spring-cloud-config" target="1.7" />
+      <module name="spring-cloud-zuul" target="1.8" />
+      <module name="spring-eureka" target="1.8" />
+      <module name="spring-eureka-customer" target="1.8" />
+      <module name="spring-eureka-customer-feign" target="1.8" />
+      <module name="spring-eureka-customer-ribbon" target="1.8" />
+      <module name="spring-eureka-discovery" target="1.8" />
+      <module name="spring-eureka-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/helloSpringBoot/helloSpringBoot.iml" filepath="$PROJECT_DIR$/helloSpringBoot/helloSpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-eureka/spring-eureka-customer-feign/spring-eureka-customer-feign.iml" filepath="$PROJECT_DIR$/spring-eureka/spring-eureka-customer-feign/spring-eureka-customer-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-eureka/spring-eureka-customer-ribbon/spring-eureka-customer-ribbon.iml" filepath="$PROJECT_DIR$/spring-eureka/spring-eureka-customer-ribbon/spring-eureka-customer-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-eureka/spring-eureka-discovery/spring-eureka-discovery.iml" filepath="$PROJECT_DIR$/spring-eureka/spring-eureka-discovery/spring-eureka-discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-eureka/spring-eureka-service/spring-eureka-service.iml" filepath="$PROJECT_DIR$/spring-eureka/spring-eureka-service/spring-eureka-service.iml" />
+    </modules>
+  </component>
+</project>

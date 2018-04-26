@@ -1,0 +1,11 @@
+server:
+  port: 2222
+spring:
+  application:
+    name: eureka-ribbon
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:123456@peer2:8002/eureka/,http://admin:123456@peer1:8001/eureka/
+    fetch-registry: true # 获取服务注册中心获取服务
+    #获取数据间隔等信息

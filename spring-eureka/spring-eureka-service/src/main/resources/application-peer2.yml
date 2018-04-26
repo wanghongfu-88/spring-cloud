@@ -1,0 +1,19 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: eureka-service
+eureka:
+  instance:
+    hostname: peer2
+  client:
+    service-url:
+      defaultZone: http://${security.user.name}:${security.user.password}@peer1:8001/eureka/
+    eureka-server-read-timeout-seconds: 20
+  server:
+        enable-self-preservation: false
+# 设置服务注册中心用户名密码
+security:
+  user:
+    name: admin
+    password: 123456
